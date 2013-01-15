@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22DCEB9216A5BDDD002389FE /* MCAsset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8916A5BDDD002389FE /* MCAsset.cpp */; };
-		22DCEB9316A5BDDD002389FE /* MCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB8A16A5BDDD002389FE /* MCAsset.h */; };
 		22DCEB9416A5BDDD002389FE /* MCKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */; };
 		22DCEB9516A5BDDD002389FE /* MCKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB8C16A5BDDD002389FE /* MCKernel.h */; };
 		22DCEB9616A5BDDD002389FE /* MCLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */; };
 		22DCEB9716A5BDDD002389FE /* MCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB8E16A5BDDD002389FE /* MCLogger.h */; };
-		22DCEB9816A5BDDD002389FE /* MCState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8F16A5BDDD002389FE /* MCState.cpp */; };
-		22DCEB9916A5BDDD002389FE /* MCState.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB9016A5BDDD002389FE /* MCState.h */; };
 		22DCEB9A16A5BDDD002389FE /* MacaroniCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB9116A5BDDD002389FE /* MacaroniCore.h */; };
+		22DCEB9E16A5D5E9002389FE /* MCAsset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB9C16A5D5E9002389FE /* MCAsset.cpp */; };
+		22DCEB9F16A5D5E9002389FE /* MCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB9D16A5D5E9002389FE /* MCAsset.h */; };
+		22DCEBA316A5D5EF002389FE /* MCState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEBA116A5D5EF002389FE /* MCState.cpp */; };
+		22DCEBA416A5D5EF002389FE /* MCState.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEBA216A5D5EF002389FE /* MCState.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22DCEB1816A49FAB002389FE /* libMacaroniCore.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMacaroniCore.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		22DCEB8916A5BDDD002389FE /* MCAsset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCAsset.cpp; sourceTree = "<group>"; };
-		22DCEB8A16A5BDDD002389FE /* MCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsset.h; sourceTree = "<group>"; };
 		22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCKernel.cpp; sourceTree = "<group>"; };
 		22DCEB8C16A5BDDD002389FE /* MCKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKernel.h; sourceTree = "<group>"; };
 		22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCLogger.cpp; sourceTree = "<group>"; };
 		22DCEB8E16A5BDDD002389FE /* MCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLogger.h; sourceTree = "<group>"; };
-		22DCEB8F16A5BDDD002389FE /* MCState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCState.cpp; sourceTree = "<group>"; };
-		22DCEB9016A5BDDD002389FE /* MCState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCState.h; sourceTree = "<group>"; };
 		22DCEB9116A5BDDD002389FE /* MacaroniCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacaroniCore.h; sourceTree = "<group>"; };
+		22DCEB9C16A5D5E9002389FE /* MCAsset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCAsset.cpp; sourceTree = "<group>"; };
+		22DCEB9D16A5D5E9002389FE /* MCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsset.h; sourceTree = "<group>"; };
+		22DCEBA116A5D5EF002389FE /* MCState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCState.cpp; sourceTree = "<group>"; };
+		22DCEBA216A5D5EF002389FE /* MCState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCState.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,8 @@
 			children = (
 				22DCEB9116A5BDDD002389FE /* MacaroniCore.h */,
 				22DCEB8816A5BDDD002389FE /* Core */,
+				22DCEB9B16A5D5E9002389FE /* Assets */,
+				22DCEBA016A5D5EF002389FE /* States */,
 			);
 			path = MacaroniCore;
 			sourceTree = "<group>";
@@ -72,14 +74,28 @@
 			children = (
 				22DCEB8C16A5BDDD002389FE /* MCKernel.h */,
 				22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */,
-				22DCEB9016A5BDDD002389FE /* MCState.h */,
-				22DCEB8F16A5BDDD002389FE /* MCState.cpp */,
-				22DCEB8A16A5BDDD002389FE /* MCAsset.h */,
-				22DCEB8916A5BDDD002389FE /* MCAsset.cpp */,
 				22DCEB8E16A5BDDD002389FE /* MCLogger.h */,
 				22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		22DCEB9B16A5D5E9002389FE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				22DCEB9D16A5D5E9002389FE /* MCAsset.h */,
+				22DCEB9C16A5D5E9002389FE /* MCAsset.cpp */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		22DCEBA016A5D5EF002389FE /* States */ = {
+			isa = PBXGroup;
+			children = (
+				22DCEBA216A5D5EF002389FE /* MCState.h */,
+				22DCEBA116A5D5EF002389FE /* MCState.cpp */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,11 +105,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DCEB9316A5BDDD002389FE /* MCAsset.h in Headers */,
 				22DCEB9516A5BDDD002389FE /* MCKernel.h in Headers */,
 				22DCEB9716A5BDDD002389FE /* MCLogger.h in Headers */,
-				22DCEB9916A5BDDD002389FE /* MCState.h in Headers */,
 				22DCEB9A16A5BDDD002389FE /* MacaroniCore.h in Headers */,
+				22DCEB9F16A5D5E9002389FE /* MCAsset.h in Headers */,
+				22DCEBA416A5D5EF002389FE /* MCState.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,10 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DCEB9216A5BDDD002389FE /* MCAsset.cpp in Sources */,
 				22DCEB9416A5BDDD002389FE /* MCKernel.cpp in Sources */,
 				22DCEB9616A5BDDD002389FE /* MCLogger.cpp in Sources */,
-				22DCEB9816A5BDDD002389FE /* MCState.cpp in Sources */,
+				22DCEB9E16A5D5E9002389FE /* MCAsset.cpp in Sources */,
+				22DCEBA316A5D5EF002389FE /* MCState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
