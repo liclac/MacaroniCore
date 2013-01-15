@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22DCEB5E16A4A94B002389FE /* MC.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB5D16A4A94B002389FE /* MC.h */; };
-		22DCEB6216A59EC2002389FE /* MCKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB6016A59EC2002389FE /* MCKernel.cpp */; };
-		22DCEB6316A59EC2002389FE /* MCKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB6116A59EC2002389FE /* MCKernel.h */; };
+		22DCEB9216A5BDDD002389FE /* MCAsset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8916A5BDDD002389FE /* MCAsset.cpp */; };
+		22DCEB9316A5BDDD002389FE /* MCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB8A16A5BDDD002389FE /* MCAsset.h */; };
+		22DCEB9416A5BDDD002389FE /* MCKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */; };
+		22DCEB9516A5BDDD002389FE /* MCKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB8C16A5BDDD002389FE /* MCKernel.h */; };
+		22DCEB9616A5BDDD002389FE /* MCLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */; };
+		22DCEB9716A5BDDD002389FE /* MCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB8E16A5BDDD002389FE /* MCLogger.h */; };
+		22DCEB9816A5BDDD002389FE /* MCState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8F16A5BDDD002389FE /* MCState.cpp */; };
+		22DCEB9916A5BDDD002389FE /* MCState.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB9016A5BDDD002389FE /* MCState.h */; };
+		22DCEB9A16A5BDDD002389FE /* MacaroniCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB9116A5BDDD002389FE /* MacaroniCore.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22DCEB1816A49FAB002389FE /* libMacaroniCore.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMacaroniCore.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		22DCEB5D16A4A94B002389FE /* MC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MC.h; sourceTree = "<group>"; };
-		22DCEB6016A59EC2002389FE /* MCKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCKernel.cpp; sourceTree = "<group>"; };
-		22DCEB6116A59EC2002389FE /* MCKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKernel.h; sourceTree = "<group>"; };
+		22DCEB8916A5BDDD002389FE /* MCAsset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCAsset.cpp; sourceTree = "<group>"; };
+		22DCEB8A16A5BDDD002389FE /* MCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsset.h; sourceTree = "<group>"; };
+		22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCKernel.cpp; sourceTree = "<group>"; };
+		22DCEB8C16A5BDDD002389FE /* MCKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKernel.h; sourceTree = "<group>"; };
+		22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCLogger.cpp; sourceTree = "<group>"; };
+		22DCEB8E16A5BDDD002389FE /* MCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLogger.h; sourceTree = "<group>"; };
+		22DCEB8F16A5BDDD002389FE /* MCState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCState.cpp; sourceTree = "<group>"; };
+		22DCEB9016A5BDDD002389FE /* MCState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCState.h; sourceTree = "<group>"; };
+		22DCEB9116A5BDDD002389FE /* MacaroniCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacaroniCore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,8 +45,7 @@
 		22DCEB0D16A49FAB002389FE = {
 			isa = PBXGroup;
 			children = (
-				22DCEB5D16A4A94B002389FE /* MC.h */,
-				22DCEB5F16A59EC2002389FE /* Core */,
+				22DCEB8716A5BDDD002389FE /* MacaroniCore */,
 				22DCEB1916A49FAB002389FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,11 +58,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22DCEB5F16A59EC2002389FE /* Core */ = {
+		22DCEB8716A5BDDD002389FE /* MacaroniCore */ = {
 			isa = PBXGroup;
 			children = (
-				22DCEB6116A59EC2002389FE /* MCKernel.h */,
-				22DCEB6016A59EC2002389FE /* MCKernel.cpp */,
+				22DCEB9116A5BDDD002389FE /* MacaroniCore.h */,
+				22DCEB8816A5BDDD002389FE /* Core */,
+			);
+			path = MacaroniCore;
+			sourceTree = "<group>";
+		};
+		22DCEB8816A5BDDD002389FE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				22DCEB8C16A5BDDD002389FE /* MCKernel.h */,
+				22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */,
+				22DCEB9016A5BDDD002389FE /* MCState.h */,
+				22DCEB8F16A5BDDD002389FE /* MCState.cpp */,
+				22DCEB8A16A5BDDD002389FE /* MCAsset.h */,
+				22DCEB8916A5BDDD002389FE /* MCAsset.cpp */,
+				22DCEB8E16A5BDDD002389FE /* MCLogger.h */,
+				22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -63,8 +89,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DCEB5E16A4A94B002389FE /* MC.h in Headers */,
-				22DCEB6316A59EC2002389FE /* MCKernel.h in Headers */,
+				22DCEB9316A5BDDD002389FE /* MCAsset.h in Headers */,
+				22DCEB9516A5BDDD002389FE /* MCKernel.h in Headers */,
+				22DCEB9716A5BDDD002389FE /* MCLogger.h in Headers */,
+				22DCEB9916A5BDDD002389FE /* MCState.h in Headers */,
+				22DCEB9A16A5BDDD002389FE /* MacaroniCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DCEB6216A59EC2002389FE /* MCKernel.cpp in Sources */,
+				22DCEB9216A5BDDD002389FE /* MCAsset.cpp in Sources */,
+				22DCEB9416A5BDDD002389FE /* MCKernel.cpp in Sources */,
+				22DCEB9616A5BDDD002389FE /* MCLogger.cpp in Sources */,
+				22DCEB9816A5BDDD002389FE /* MCState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

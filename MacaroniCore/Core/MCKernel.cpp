@@ -7,6 +7,7 @@
 //
 
 #include "MCKernel.h"
+#include "MCLogger.h"
 
 MCKernel::MCKernel()
 {
