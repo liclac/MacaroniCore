@@ -15,15 +15,16 @@
 class MCTextAsset : MCAsset
 {
 public:
+	/// Initializes a Text Asset with the contents of the file at the given path
 	MCTextAsset(std::string &source);
 	
-	virtual std::string text();
+	virtual std::string text();			///< Returns the file's contents
 	
-	virtual void load();
-	virtual void unload();
+	virtual void load();				///< Loads the file into memory
+	virtual void unload();				///< Unloads the file from memory
 	
-private:
-	std::string m_data;
+protected:
+	std::string m_data;					///< The file's contents
 };
 
 #endif /* defined(__MacaroniCore__MCTextAsset__) */

@@ -9,7 +9,12 @@
 #ifndef MacaroniCore_MC_h
 #define MacaroniCore_MC_h
 
+#include "MacaroniCore_Internal.h"
+#include "MacaroniCode_Detect.h"
+
+// Includes
 #include "Base/Base.h"
 #include "UI/UI.h"
+#include "Additions/Additions.h"
 
 #endif
