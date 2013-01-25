@@ -7,28 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22DCEB9416A5BDDD002389FE /* MCKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */; };
-		22DCEB9516A5BDDD002389FE /* MCKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB8C16A5BDDD002389FE /* MCKernel.h */; };
-		22DCEB9616A5BDDD002389FE /* MCLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */; };
-		22DCEB9716A5BDDD002389FE /* MCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB8E16A5BDDD002389FE /* MCLogger.h */; };
+		226067A616B2C7E900FC05EA /* MCAsset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2260679316B2C7E900FC05EA /* MCAsset.cpp */; };
+		226067A716B2C7E900FC05EA /* MCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 2260679416B2C7E900FC05EA /* MCAsset.h */; };
+		226067A816B2C7E900FC05EA /* MCTextAsset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2260679516B2C7E900FC05EA /* MCTextAsset.cpp */; };
+		226067A916B2C7E900FC05EA /* MCTextAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 2260679616B2C7E900FC05EA /* MCTextAsset.h */; };
+		226067AA16B2C7E900FC05EA /* MCKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2260679816B2C7E900FC05EA /* MCKernel.cpp */; };
+		226067AB16B2C7E900FC05EA /* MCKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2260679916B2C7E900FC05EA /* MCKernel.h */; };
+		226067AC16B2C7E900FC05EA /* MCLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2260679A16B2C7E900FC05EA /* MCLogger.cpp */; };
+		226067AD16B2C7E900FC05EA /* MCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2260679B16B2C7E900FC05EA /* MCLogger.h */; };
+		226067AE16B2C7E900FC05EA /* MCThing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2260679D16B2C7E900FC05EA /* MCThing.cpp */; };
+		226067AF16B2C7E900FC05EA /* MCThing.h in Headers */ = {isa = PBXBuildFile; fileRef = 2260679E16B2C7E900FC05EA /* MCThing.h */; };
+		226067B016B2C7E900FC05EA /* MCState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 226067A016B2C7E900FC05EA /* MCState.cpp */; };
+		226067B116B2C7E900FC05EA /* MCState.h in Headers */ = {isa = PBXBuildFile; fileRef = 226067A116B2C7E900FC05EA /* MCState.h */; };
 		22DCEB9A16A5BDDD002389FE /* MacaroniCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB9116A5BDDD002389FE /* MacaroniCore.h */; };
-		22DCEB9E16A5D5E9002389FE /* MCAsset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEB9C16A5D5E9002389FE /* MCAsset.cpp */; };
-		22DCEB9F16A5D5E9002389FE /* MCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEB9D16A5D5E9002389FE /* MCAsset.h */; };
-		22DCEBA316A5D5EF002389FE /* MCState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEBA116A5D5EF002389FE /* MCState.cpp */; };
-		22DCEBA416A5D5EF002389FE /* MCState.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCEBA216A5D5EF002389FE /* MCState.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2260679316B2C7E900FC05EA /* MCAsset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCAsset.cpp; sourceTree = "<group>"; };
+		2260679416B2C7E900FC05EA /* MCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsset.h; sourceTree = "<group>"; };
+		2260679516B2C7E900FC05EA /* MCTextAsset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCTextAsset.cpp; sourceTree = "<group>"; };
+		2260679616B2C7E900FC05EA /* MCTextAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTextAsset.h; sourceTree = "<group>"; };
+		2260679816B2C7E900FC05EA /* MCKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCKernel.cpp; sourceTree = "<group>"; };
+		2260679916B2C7E900FC05EA /* MCKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKernel.h; sourceTree = "<group>"; };
+		2260679A16B2C7E900FC05EA /* MCLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCLogger.cpp; sourceTree = "<group>"; };
+		2260679B16B2C7E900FC05EA /* MCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLogger.h; sourceTree = "<group>"; };
+		2260679D16B2C7E900FC05EA /* MCThing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCThing.cpp; sourceTree = "<group>"; };
+		2260679E16B2C7E900FC05EA /* MCThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCThing.h; sourceTree = "<group>"; };
+		226067A016B2C7E900FC05EA /* MCState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCState.cpp; sourceTree = "<group>"; };
+		226067A116B2C7E900FC05EA /* MCState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCState.h; sourceTree = "<group>"; };
+		226067B416B2C89E00FC05EA /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		226067B516B2C8A800FC05EA /* UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		226067B616B2C8EF00FC05EA /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		226067B716B2C8FC00FC05EA /* Assets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assets.h; sourceTree = "<group>"; };
+		226067B816B2C90600FC05EA /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		226067B916B2C91800FC05EA /* States.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = States.h; sourceTree = "<group>"; };
+		226067BA16B2C94600FC05EA /* Graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graphics.h; sourceTree = "<group>"; };
+		226067BB16B2C94D00FC05EA /* Input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		226067BC16B2C95500FC05EA /* Sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
 		22DCEB1816A49FAB002389FE /* libMacaroniCore.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMacaroniCore.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCKernel.cpp; sourceTree = "<group>"; };
-		22DCEB8C16A5BDDD002389FE /* MCKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKernel.h; sourceTree = "<group>"; };
-		22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCLogger.cpp; sourceTree = "<group>"; };
-		22DCEB8E16A5BDDD002389FE /* MCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLogger.h; sourceTree = "<group>"; };
 		22DCEB9116A5BDDD002389FE /* MacaroniCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacaroniCore.h; sourceTree = "<group>"; };
-		22DCEB9C16A5D5E9002389FE /* MCAsset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCAsset.cpp; sourceTree = "<group>"; };
-		22DCEB9D16A5D5E9002389FE /* MCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsset.h; sourceTree = "<group>"; };
-		22DCEBA116A5D5EF002389FE /* MCState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCState.cpp; sourceTree = "<group>"; };
-		22DCEBA216A5D5EF002389FE /* MCState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCState.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +59,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2260679116B2C7E900FC05EA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				226067B416B2C89E00FC05EA /* Base.h */,
+				2260679716B2C7E900FC05EA /* Core */,
+				2260679216B2C7E900FC05EA /* Assets */,
+				2260679C16B2C7E900FC05EA /* Model */,
+				2260679F16B2C7E900FC05EA /* States */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2260679216B2C7E900FC05EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				226067B716B2C8FC00FC05EA /* Assets.h */,
+				2260679316B2C7E900FC05EA /* MCAsset.cpp */,
+				2260679416B2C7E900FC05EA /* MCAsset.h */,
+				2260679516B2C7E900FC05EA /* MCTextAsset.cpp */,
+				2260679616B2C7E900FC05EA /* MCTextAsset.h */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2260679716B2C7E900FC05EA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				226067B616B2C8EF00FC05EA /* Core.h */,
+				2260679816B2C7E900FC05EA /* MCKernel.cpp */,
+				2260679916B2C7E900FC05EA /* MCKernel.h */,
+				2260679A16B2C7E900FC05EA /* MCLogger.cpp */,
+				2260679B16B2C7E900FC05EA /* MCLogger.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2260679C16B2C7E900FC05EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				226067B816B2C90600FC05EA /* Model.h */,
+				2260679D16B2C7E900FC05EA /* MCThing.cpp */,
+				2260679E16B2C7E900FC05EA /* MCThing.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2260679F16B2C7E900FC05EA /* States */ = {
+			isa = PBXGroup;
+			children = (
+				226067B916B2C91800FC05EA /* States.h */,
+				226067A016B2C7E900FC05EA /* MCState.cpp */,
+				226067A116B2C7E900FC05EA /* MCState.h */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		226067A216B2C7E900FC05EA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				226067B516B2C8A800FC05EA /* UI.h */,
+				226067A316B2C7E900FC05EA /* Graphics */,
+				226067A516B2C7E900FC05EA /* Sound */,
+				226067A416B2C7E900FC05EA /* Input */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		226067A316B2C7E900FC05EA /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				226067BA16B2C94600FC05EA /* Graphics.h */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		226067A416B2C7E900FC05EA /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				226067BB16B2C94D00FC05EA /* Input.h */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		226067A516B2C7E900FC05EA /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				226067BC16B2C95500FC05EA /* Sound.h */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		22DCEB0D16A49FAB002389FE = {
 			isa = PBXGroup;
 			children = (
@@ -62,40 +170,10 @@
 			isa = PBXGroup;
 			children = (
 				22DCEB9116A5BDDD002389FE /* MacaroniCore.h */,
-				22DCEB8816A5BDDD002389FE /* Core */,
-				22DCEB9B16A5D5E9002389FE /* Assets */,
-				22DCEBA016A5D5EF002389FE /* States */,
+				2260679116B2C7E900FC05EA /* Base */,
+				226067A216B2C7E900FC05EA /* UI */,
 			);
 			path = MacaroniCore;
-			sourceTree = "<group>";
-		};
-		22DCEB8816A5BDDD002389FE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				22DCEB8C16A5BDDD002389FE /* MCKernel.h */,
-				22DCEB8B16A5BDDD002389FE /* MCKernel.cpp */,
-				22DCEB8E16A5BDDD002389FE /* MCLogger.h */,
-				22DCEB8D16A5BDDD002389FE /* MCLogger.cpp */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		22DCEB9B16A5D5E9002389FE /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				22DCEB9D16A5D5E9002389FE /* MCAsset.h */,
-				22DCEB9C16A5D5E9002389FE /* MCAsset.cpp */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		22DCEBA016A5D5EF002389FE /* States */ = {
-			isa = PBXGroup;
-			children = (
-				22DCEBA216A5D5EF002389FE /* MCState.h */,
-				22DCEBA116A5D5EF002389FE /* MCState.cpp */,
-			);
-			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,11 +183,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DCEB9516A5BDDD002389FE /* MCKernel.h in Headers */,
-				22DCEB9716A5BDDD002389FE /* MCLogger.h in Headers */,
 				22DCEB9A16A5BDDD002389FE /* MacaroniCore.h in Headers */,
-				22DCEB9F16A5D5E9002389FE /* MCAsset.h in Headers */,
-				22DCEBA416A5D5EF002389FE /* MCState.h in Headers */,
+				226067A716B2C7E900FC05EA /* MCAsset.h in Headers */,
+				226067A916B2C7E900FC05EA /* MCTextAsset.h in Headers */,
+				226067AB16B2C7E900FC05EA /* MCKernel.h in Headers */,
+				226067AD16B2C7E900FC05EA /* MCLogger.h in Headers */,
+				226067AF16B2C7E900FC05EA /* MCThing.h in Headers */,
+				226067B116B2C7E900FC05EA /* MCState.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,10 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DCEB9416A5BDDD002389FE /* MCKernel.cpp in Sources */,
-				22DCEB9616A5BDDD002389FE /* MCLogger.cpp in Sources */,
-				22DCEB9E16A5D5E9002389FE /* MCAsset.cpp in Sources */,
-				22DCEBA316A5D5EF002389FE /* MCState.cpp in Sources */,
+				226067A616B2C7E900FC05EA /* MCAsset.cpp in Sources */,
+				226067A816B2C7E900FC05EA /* MCTextAsset.cpp in Sources */,
+				226067AA16B2C7E900FC05EA /* MCKernel.cpp in Sources */,
+				226067AC16B2C7E900FC05EA /* MCLogger.cpp in Sources */,
+				226067AE16B2C7E900FC05EA /* MCThing.cpp in Sources */,
+				226067B016B2C7E900FC05EA /* MCState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +342,7 @@
 				22DCEB1E16A49FAB002389FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

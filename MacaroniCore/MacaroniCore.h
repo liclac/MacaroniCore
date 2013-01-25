@@ -9,11 +9,7 @@
 #ifndef MacaroniCore_MC_h
 #define MacaroniCore_MC_h
 
-#include "Core/MCKernel.h"
-#include "Core/MCLogger.h"
-
-#include "Assets/MCAsset.h"
-
-#include "States/MCState.h"
+#include "Base/Base.h"
+#include "UI/UI.h"
 
 #endif
