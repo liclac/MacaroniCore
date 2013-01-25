@@ -65,8 +65,8 @@
 				226067B416B2C89E00FC05EA /* Base.h */,
 				2260679716B2C7E900FC05EA /* Core */,
 				2260679216B2C7E900FC05EA /* Assets */,
-				2260679C16B2C7E900FC05EA /* Model */,
 				2260679F16B2C7E900FC05EA /* States */,
+				2260679C16B2C7E900FC05EA /* Model */,
 			);
 			path = Base;
 			sourceTree = "<group>";

@@ -9,6 +9,6 @@
 #ifndef MacaroniCore_Model_h
 #define MacaroniCore_Model_h
 
-
+#include "MCThing.h"
 
 #endif

@@ -9,6 +9,6 @@
 #ifndef MacaroniCore_States_h
 #define MacaroniCore_States_h
 
-
+#include "MCState.h"
 
 #endif

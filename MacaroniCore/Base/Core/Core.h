@@ -9,6 +9,7 @@
 #ifndef MacaroniCore_Core_h
 #define MacaroniCore_Core_h
 
-
+#include "MCKernel.h"
+#include "MCLogger.h"
 
 #endif
