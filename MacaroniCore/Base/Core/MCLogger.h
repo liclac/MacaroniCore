@@ -25,13 +25,16 @@ public:
 	~MCLogger() { m_output << std::endl; }
 	
 	/// Logs the given... thing
-	template <typename T> MCLogger & operator<< (const T &thing) { m_output << thing; return *this; }
+	template <typename T>
+	MCLogger & operator<< (const T &thing) {
+		m_output << thing; return *this;
+	}
+	MCLogger & operator<< (const std::string &string) { return this->operator<<(string.c_str()); }
 	
 private:
 	std::ostream& m_output;
 };
 
-// Editing past here is difficult thanks to an Xcode bug >_>
 inline MCLogger mclDebug() { return MCLogger(std::cout, "[DEBUG] "); }		///< Returns a temporary Debug logger
 inline MCLogger mclInfo() { return MCLogger(std::cout, "> "); }				///< Returns a temporary Info logger
 inline MCLogger mclWarning() { return MCLogger(std::cout, "[!] "); }		///< Returns a temporary Warning logger

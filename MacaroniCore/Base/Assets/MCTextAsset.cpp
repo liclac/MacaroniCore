@@ -7,7 +7,7 @@
 //
 
 #include "MCTextAsset.h"
-#include "MCLogger.h"
+#include "../Core/MCLogger.h"
 #include <fstream>
 
 std::string MCTextAsset::text()
@@ -19,14 +19,16 @@ std::string MCTextAsset::text()
 
 void MCTextAsset::load()
 {
-	std::ifstream in(m_source.c_str(), std::ios::in | std::ios::binary);
+	std::ifstream in(m_source.c_str(), std::ios::in);
 	if(in)
 	{
 		in.seekg(0, std::ios::end);
-		m_data.resize(in.tellg());
+		m_data.reserve((unsigned int)in.tellg());
 		in.seekg(0, std::ios::beg);
-		in.read(&m_data[0], m_data.size());
-		in.close();
+		
+		m_data.assign((std::istreambuf_iterator<char>(in)),
+						std::istreambuf_iterator<char>());
+		
 		m_loaded = true;
 	}
 	else

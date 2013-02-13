@@ -1,14 +1,27 @@
-//
-//  MCAbstractRenderer.h
-//  MacaroniCore
-//
-//  Created by Johannes Ekberg on 2013-01-25.
-//  Copyright (c) 2013 MacaroniCode. All rights reserved.
-//
+/*
+ * MCAbstractRenderer.h
+ *
+ *  Created on: 12 feb 2013
+ *      Author: Johannes Ekberg
+ */
 
-#ifndef __MacaroniCore__MCAbstractRenderer__
-#define __MacaroniCore__MCAbstractRenderer__
+#ifndef MCABSTRACTRENDERER_H_
+#define MCABSTRACTRENDERER_H_
 
-#include <iostream>
+#include "../../Base/Core/MCObject.h"
 
-#endif /* defined(__MacaroniCore__MCAbstractRenderer__) */
+class MCRenderedThing;
+
+class MCAbstractRenderer: public MCObject
+{
+public:
+	MCAbstractRenderer(MCKernel *kernel) : MCObject(kernel) {};
+	virtual ~MCAbstractRenderer() {};
+	
+	virtual void begin() {};
+	virtual void end() {};
+	
+	virtual void draw(MCRenderedThing *thing) {};
+};
+
+#endif /* MCABSTRACTRENDERER_H_ */

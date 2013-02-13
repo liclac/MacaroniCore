@@ -7,3 +7,9 @@
 //
 
 #include "MCThing.h"
+
+MCThing::MCThing(MCKernel *kernel):
+	MCObject(kernel)
+{}
+
+MCThing::~MCThing() {}

@@ -9,8 +9,6 @@
 #ifndef __MacaroniCore__MCAbstractTimer__
 #define __MacaroniCore__MCAbstractTimer__
 
-#include <iostream>
-
 /**
  * The MCAbstractTimer class is used to time sections of
  * code.
@@ -25,7 +23,7 @@
 class MCAbstractTimer
 {
 	MCAbstractTimer();
-	virtual MCAbstractTimer();
+	virtual ~MCAbstractTimer();
 	
 	/**
 	 * Starts timing a section.
@@ -40,7 +38,7 @@ class MCAbstractTimer
 	 * Stops the timer.
 	 * @returns the time the section took to complete, in seconds
 	 */
-	virtual double end() {}
+	virtual double end() { return 0; }
 };
 
 #endif /* defined(__MacaroniCore__MCAbstractTimer__) */

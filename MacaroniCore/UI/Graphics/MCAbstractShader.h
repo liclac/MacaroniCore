@@ -1,14 +1,20 @@
-//
-//  MCAbstractShader.h
-//  MacaroniCore
-//
-//  Created by Johannes Ekberg on 2013-01-25.
-//  Copyright (c) 2013 MacaroniCode. All rights reserved.
-//
+/*
+ * MCAbstractShader.h
+ *
+ *  Created on: 13 feb 2013
+ *      Author: Johannes Ekberg
+ */
 
-#ifndef __MacaroniCore__MCAbstractShader__
-#define __MacaroniCore__MCAbstractShader__
+#ifndef MCABSTRACTSHADER_H_
+#define MCABSTRACTSHADER_H_
 
-#include <iostream>
+#include "MCObject.h"
 
-#endif /* defined(__MacaroniCore__MCAbstractShader__) */
+class MCAbstractShader: public MCObject
+{
+public:
+	MCAbstractShader(MCKernel *kernel);
+	virtual ~MCAbstractShader();
+};
+
+#endif /* MCABSTRACTSHADER_H_ */
